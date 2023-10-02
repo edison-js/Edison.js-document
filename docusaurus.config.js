@@ -64,24 +64,31 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Edison',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon.ico',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
+            to: '/docs/intro',
+            position: 'right',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            to: '/blog',label: 'Community',position: 'right',
           },
+          {
+            position: 'right',
+            href: 'https://github.com/AllenShintani/Edison',
+            html: '<img src="/img/github-svgrepo-com.svg" alt="GitHub" />'
+          },
+          {
+            position: 'right',
+            href: 'https://github.com/AllenShintani/Edison',
+            html: '<img src="/img/discord-icon.svg" alt="discord" />'
+          }
         ],
       },
       footer: {
