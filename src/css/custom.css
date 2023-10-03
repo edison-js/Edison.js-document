@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Marumonika';
+  src:url('/assets/fonts/x12y12pxMaruMinya.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -34,4 +41,54 @@
 }
 .navbar__title {
   font-size: 1.8rem;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(112, 112, 112);
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    color: black;
+  }
+  100% {
+    color: rgb(214, 214, 2);
+  }
+}
+
+.hero__title, .hero-title-typing {
+  max-width: fit-content;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  letter-spacing: .1em;
+  animation: typing 3s steps(80, end), blink-caret .75s step-end infinite, colorChange 2s infinite alternate;
+  font-family: 'Marumonika';
+  color: black;
+  font-size: 5rem;
+}
+
+.hero--primary {
+  background-image: url('/img/EdisonBlank.png');  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Marumonika' ;
+  height: 400px;
 }

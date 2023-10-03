@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Hello Edison!',
+  tagline: 'Ready to be Innovator?',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -69,7 +69,17 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/favicon.ico',
         },
+        
         items: [
+          {
+            href: 'https://github.com/AllenShintani/Edison',
+            position: 'left',
+            html: `
+      <a href="https://github.com/AllenShintani/Edison" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/github/stars/AllenShintani/Edison?style=plastic&color=glay&label=Star" alt="GitHub Star" width="70" />
+      </a>
+            `
+          },
           {
             to: '/docs/intro',
             position: 'right',
@@ -86,7 +96,7 @@ const config = {
           },
           {
             position: 'right',
-            href: 'https://github.com/AllenShintani/Edison',
+            href: 'https://discord.gg/eHB5dBkZyW',
             html: '<img src="/img/discord-icon.svg" alt="discord" />'
           }
         ],
@@ -108,15 +118,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/edison',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/eHB5dBkZyW',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/Edison1972457',
               },
             ],
           },
@@ -129,7 +139,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/AllenShintani/Edison',
               },
             ],
           },

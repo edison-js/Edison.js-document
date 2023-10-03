@@ -20,11 +20,12 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'TypeScript and JavaScript',
+    title: ' on What Matters',
     Svg: require('@site/static/img/tsJs.svg').default,
     description: (
       <>
-        Edison supports both TypeScript and JavaScript. You can use the language you are most comfortable with.
+        Docusaurus lets you  on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
