@@ -22,17 +22,21 @@ npm install edison
 if you use WSL, you need to follow [this instruction](/docs/Getting%20Started/How%20to%20WSL)
 ## Try LED flashing
 
-Generate a new Docusaurus site using the **classic template**.
 
-The classic template will automatically be added to your project after you run the command:
 
-```bash
-npm init docusaurus@latest my-website classic
+```ts
+import { board } from '../utils/board'
+import { createLed } from '../factory/output/uniqueDevice/led'
+import { SerialPort } from 'serialport'
+
+board.on('ready', (port: SerialPort) => {
+  console.log('Board is ready!')
+  const led = createLed(port, 12)
+  led.blink(500)
+})
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
 
 ## Start your site
 
