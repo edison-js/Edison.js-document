@@ -90,10 +90,6 @@ const config = {
             position: 'right',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
-          {
-            to: '/blog',label: 'Community',position: 'right',
-          },
           {
             position: 'right',
             href: 'https://github.com/AllenShintani/Edison',

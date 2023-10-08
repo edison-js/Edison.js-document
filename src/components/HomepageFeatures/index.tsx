@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Developer friendly:',
+    title: 'Developer friendly',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
