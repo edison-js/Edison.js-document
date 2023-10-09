@@ -7,24 +7,22 @@ Get Edison with NPM:
 npm install edison
 ```
 
-### What you'll need
+## 1. What you'll need
 
 - [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
 
-## Uploading Standard Firmata to Arduino
+## 2. Uploading Standard Firmata to Arduino
 
 - Open Arduino IDE.
 - `File` > `Examples` > `Firmata` > `StandardFirmata`
 - `Tools` > `Board` > `your board`
 - Click `Upload` button.
 if you use WSL, you need to follow [this instruction](/docs/Getting%20Started/How%20to%20WSL)
-## Try LED flashing
+## 3. Try LED flashing
 
-
-
-```ts
+```ts title="index.ts"
 import { board } from '../utils/board'
 import { attachLed } from '../factory/output/uniqueDevice/led'
 import { SerialPort } from 'serialport'
@@ -34,5 +32,10 @@ board.on('ready', (port: SerialPort) => {
   const led = attachLed(port, 12)
   led.blink(500)
 })
+```
+
+## 4. execute the program
+```bash
+$ ts-node index.ts 
 ```
 automatically** and displays your changes.

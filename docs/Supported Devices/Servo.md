@@ -11,7 +11,7 @@ Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20S
 
 ### 2. Run the Servo
 
-```ts
+```ts title="index.ts"
 import { SerialPort, attachServo, board } from "edison"
 
 board.on('ready', async (port: SerialPort) => {
@@ -29,7 +29,7 @@ The Servo will rotate 50 degrees => 150 degrees => 50 degrees => 150 degrees.
 
 ## 3. execute the program
 ```bash
-$ ts-node index.js 
+$ ts-node index.ts 
 ```
 
 `attachServo` is a receive two arguments, `port` and `pin`.

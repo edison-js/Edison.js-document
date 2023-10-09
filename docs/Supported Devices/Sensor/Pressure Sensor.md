@@ -11,7 +11,7 @@ Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20S
 
 ## 2. Run the Pressure sensor
 
-```ts
+```ts title="index.ts"
 import { SerialPort, attachLed, attachSensor, board } from "edison"
 
 board.on('ready', (port: SerialPort) => {
@@ -29,7 +29,7 @@ This program will blink the LED when the pressure sensor is pressed.
 
 ## 3. execute the program
 ```bash
-$ ts-node index.js 
+$ ts-node index.ts 
 ```
 
 `AnalogPin` is a original type. check [Types](/docs/Types/Types.md) .

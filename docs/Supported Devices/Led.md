@@ -24,7 +24,7 @@ board.on('ready', (port: SerialPort) => {
 
 ## 3. execute the program
 ```bash
-$ ts-node index.js 
+$ ts-node index.ts 
 ```
 
 The LED will blink every 500ms.
