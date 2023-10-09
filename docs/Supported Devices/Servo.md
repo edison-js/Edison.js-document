@@ -1,7 +1,15 @@
 
 ![Servo img](/img/Servo.svg)
 
-### 1. Run the Servo
+## 1. Write standard firmata to the device
+Uploading Standard Firmata to Arduino
+Open Arduino IDE.
+`File > Examples > Firmata > StandardFirmata`.
+
+`Tools > Board > your board`
+Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20Started/How%20to%20WSL.md)
+
+### 2. Run the Servo
 
 ```ts
 import { SerialPort, attachServo, board } from "edison"
@@ -16,6 +24,13 @@ board.on('ready', async (port: SerialPort) => {
 ```
 
 The Servo will rotate 50 degrees => 150 degrees => 50 degrees => 150 degrees. 
+
+
+
+## 3. execute the program
+```bash
+$ ts-node index.js 
+```
 
 `attachServo` is a receive two arguments, `port` and `pin`.
 

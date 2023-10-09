@@ -1,15 +1,30 @@
 
 ![Led img](/img/Led.svg)
 
-### 1. Run the LED
+## 1. Write standard firmata to the device
+Uploading Standard Firmata to Arduino
+Open Arduino IDE.
+`File > Examples > Firmata > StandardFirmata`.
 
-```ts
+`Tools > Board > your board`
+Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20Started/How%20to%20WSL.md)
+
+
+## 2. Run the LED
+
+```ts title="index.ts"
 import { SerialPort, board, attachLed } from 'edison'
 
 board.on('ready', (port: SerialPort) => {
   const led = attachLed(port, 12)
   led.blink(500)
 })
+```
+
+
+## 3. execute the program
+```bash
+$ ts-node index.js 
 ```
 
 The LED will blink every 500ms.
