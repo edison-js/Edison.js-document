@@ -24,24 +24,33 @@ Before you start, ensure you have the required software and tools installed, inc
 6. `Tools` > `Board` > `your board`
 7. Click `Upload` button.
 if you use WSL, you need to follow [this instruction](/docs/Getting%20Started/How%20to%20WSL)
-###   3. Making Changes
+
+### 3. How to write issue
+
+1. Go to [issues](https://github.com/AllenShintani/Edison/issues)
+- If you want to add new device, write issue with `new device` label and device name.
+
+- If you want to add new method, write issue with `new method` label and method name.
+
+- If you find bug, write issue with `bug` label and bug name.
+
+###   4. Making Changes
 Branching: Always create a new branch for your changes. Use a descriptive name, like fix-header-bug or add-login-docs.
 
 Editing: Ensure your edits adhere to our style guide. Keep your modifications clean and well-organized.
 
 Committing: Use clear and concise commit messages.
-### 4. Submitting Your Changes
+### 5. Submitting Your Changes
 Before pushing your changes, ensure everything is working locally.
 Push the branch to your forked repository on GitHub.
 Create a pull request (PR) against the main repository.
 Describe your changes clearly in the PR description.
-### 5. Review Process
+### 6. Review Process
 After submitting a PR, the maintainers will review your submission.
 Address any comments or feedback you receive from the maintainers.
 Once your PR is approved, the maintainers will merge it.
-### 6. Community and Conduct
+### 7. Community and Conduct
 Always be respectful and understanding towards other contributors.
 If you have questions or need help, don't hesitate to ask in the community channels or forum.
-### 7. Finally
+### 8. Finally
 Thank you for your contributions and dedication to enhancing our documentation. Together, we can make it the best resource possible!
-
