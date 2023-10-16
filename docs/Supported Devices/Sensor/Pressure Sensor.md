@@ -7,6 +7,7 @@ Open Arduino IDE.
 `File > Examples > Firmata > StandardFirmata`.
 
 `Tools > Board > your board`
+`Tools > Serial Port > your port`
 Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20Started/How%20to%20WSL.md)
 
 ## 2. Run the Pressure sensor

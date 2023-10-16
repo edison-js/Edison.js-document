@@ -18,6 +18,7 @@ npm install edison
 - Open Arduino IDE.
 - `File` > `Examples` > `Firmata` > `StandardFirmata`
 - `Tools` > `Board` > `your board`
+- `Tools` > `Port` > `your port`
 - Click `Upload` button.
 if you use WSL, you need to follow [this instruction](/docs/Getting%20Started/How%20to%20WSL)
 ## 3. Try LED flashing

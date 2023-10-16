@@ -22,7 +22,8 @@ Before you start, ensure you have the required software and tools installed, inc
 4. Open Arduino IDE.
 5. `File` > `Examples` > `Firmata` > `StandardFirmata`
 6. `Tools` > `Board` > `your board`
-7. Click `Upload` button.
+7. `Tools` > `Serial Port` > `your port`
+8. Click `Upload` button.
 if you use WSL, you need to follow [this instruction](/docs/Getting%20Started/How%20to%20WSL)
 
 ### 3. How to write issue
