@@ -15,7 +15,7 @@ npm install edison
 
 ## 2. Uploading Standard Firmata to Arduino
 
-- Open Arduino IDE.
+- Open Arduino IDE. if you have not install that, [install Arduino IDE](https://www.arduino.cc/en/software).
 - `File` > `Examples` > `Firmata` > `StandardFirmata`
 - `Tools` > `Board` > `your board`
 - `Tools` > `Port` > `your port`

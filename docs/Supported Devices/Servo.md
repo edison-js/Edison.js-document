@@ -33,7 +33,7 @@ The Servo will rotate 50 degrees => 150 degrees => 50 degrees => 150 degrees.
 $ ts-node index.ts 
 ```
 
-`attachServo` is a receive two arguments, `port` and `pin`.
+You can use `attachServo(port, pin)`
 
 | Arguments | Type   | Description      | Default |
 |-----------|--------|------------------|---------|

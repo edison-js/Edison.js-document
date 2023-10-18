@@ -28,7 +28,7 @@ board.on('ready', (port: SerialPort) => {
 $ ts-node index.ts 
 ```
 
-`attachBuzzer` is a receive two arguments, `port` and `pin`.
+You can use `attachBuzzer(port, pin)`
 
 | Arguments | Type   | Description      | Default |
 |-----------|--------|------------------|---------|

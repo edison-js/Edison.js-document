@@ -18,7 +18,7 @@ import { SerialPort, attachLed, attachSensor, board } from "edison"
 board.on('ready', (port: SerialPort) => {
   console.log('Board is ready!')
   const led1 = attachLed(port, 12)
-  const sensor1 = attachSensor(port, 'A0')
+  const sensor1 = attachPressureSensor(port, 'A0')
 
   sensor1.read('on', function () {
     led1.blink(500)
@@ -34,6 +34,8 @@ $ ts-node index.ts
 ```
 
 `AnalogPin` is a original type. check [Types](/docs/Types/Types.md) .
+
+You can use `attachPressureSensor(port, pin)`
 
 | Arguments | Type   | Description      | Default |
 |-----------|--------|------------------|---------|

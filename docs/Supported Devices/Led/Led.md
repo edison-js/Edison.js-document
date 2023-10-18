@@ -1,4 +1,3 @@
-
 ![Led img](/img/Led.svg)
 
 ## 1. Write standard firmata to the device
@@ -28,7 +27,8 @@ $ ts-node index.ts
 ```
 
 The LED will blink every 500ms.
-`attachLed` is a receive two arguments, `port` and `pin`.
+
+You can use `attachLed(port, pin)`
 
 | Arguments | Type   | Description      | Default |
 |-----------|--------|------------------|---------|
