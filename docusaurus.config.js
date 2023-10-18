@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Introduction',
+  title: '　Hello Edison',
   tagline: 'Ready to be Innovator?',
   favicon: '/img/favicon.ico',
 
@@ -66,7 +66,7 @@ const config = {
         title: 'Edison',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/favicon.ico',
+          src: '/img/favicon.ico',
         },
         
         items: [
