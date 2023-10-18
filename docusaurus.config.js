@@ -61,12 +61,12 @@ const config = {
         respectPrefersColorScheme: false,
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: '/img/edison.png',
       navbar: {
         title: 'Edison',
         logo: {
           alt: 'My Site Logo',
-          src: '/img/favicon.ico',
+          src: '/img/edison.png',
         },
         
         items: [
