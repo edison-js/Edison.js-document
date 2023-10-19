@@ -17,23 +17,16 @@ board.on('ready', (port: SerialPort) => {
 ## if you use WSL or Mac
 `ls /dev/tty*` and check your port.
 
-:::tip
-Unplug the device and examine it. The path displayed only when the device is plugged in is the port required to connect to the device
-:::
-| Arguments | Type   | Description      | Default |
-|-----------|--------|------------------|---------|
-| `port`      | `SerialPort<AutoDetectTypes>`  | Port information for serial communication with the device     | `None`    |
-| `pin`      | number  | Pin number to control current     | `None` |
+## if you use Windows
 
-and you can use `read` method.
+`Tools` > `Port` > `Com**` and check your port.
 
-| template literal       | Description  
-|--------|-------|
-| `on`   | output pin will be on|
-| `off`  | output pin will be off |
+```ts title="index.ts"
+//example
+board.connectManual('COM8') // *** is your port
 
-:::tip
-
-`attachOutput` is a function that sets the output pin. So, you can control many device Led, Buzzer, etc.
-
-:::
+board.on('ready', (port: SerialPort) => {
+  const led = attachLed(port, 12)
+  led.blink(500)
+})
+```

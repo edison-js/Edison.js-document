@@ -30,8 +30,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={'Introduction'}
-      description="edison is an OSS that can control microcomputers such as Arduino with TypeScript and JavaScript.">
+      title={'Introduction'} description="edison is an OSS that can control microcomputers such as Arduino with TypeScript and JavaScript.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
