@@ -72,11 +72,11 @@ const config = {
 
         items: [
           {
-            href: 'https://github.com/AllenShintani/Edison',
+            href: 'https://github.com/edison-js/Edison',
             position: 'left',
             html: `
-      <a href="https://github.com/AllenShintani/Edison" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/github/stars/AllenShintani/Edison?style=plastic&color=glay&label=Star" alt="GitHub Star" width="70" />
+      <a href="https://github.com/edison-js/Edison" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/github/stars/edison-js/Edison?style=plastic&color=glay&label=Star" alt="GitHub Star" width="70" />
       </a>
             `
           },
@@ -87,7 +87,7 @@ const config = {
           },
           {
             position: 'right',
-            href: 'https://github.com/AllenShintani/Edison',
+            href: 'https://github.com/edison-js/Edison',
             html: '<img src="/img/github-svgrepo-com.svg" alt="GitHub" />'
           },
           {
@@ -132,7 +132,7 @@ const config = {
 
               {
                 label: 'GitHub',
-                href: 'https://github.com/AllenShintani/Edison',
+                href: 'https://github.com/edison-js/Edison',
               },
             ],
           },
