@@ -9,14 +9,14 @@ Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20S
 
 ## 2. Set output pin
 
-You can use `attachOutput(port, pin)` function to set output pin.
+You can use `<Output pin={} isOn={}>` function component to set output pin.
 
 | Arguments | Type   | Description      | Default |
 |-----------|--------|------------------|---------|
-| `port`      | `SerialPort<AutoDetectTypes>`  | Port information for serial communication with the device     | `None`    |
+| `isOn`      | boolen  | `on` if `isOn` is true, `off` if false.     | `None`    |
 | `pin`      | number  | Pin number to control current     | `None` |
 
-and you can use `read` method.
+
 
 | template literal       | Description  
 |--------|-------|

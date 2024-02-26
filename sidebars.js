@@ -43,7 +43,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Sensor',
-          items: ['Supported Devices/Sensor/Pressure Sensor', 'Supported Devices/Sensor/Hall Effect Sensor'],
+          items: ['Supported Devices/Sensor/Pressure Sensor', 'Supported Devices/Sensor/Hall Effect Sensor','Supported Devices/Sensor/Button'],
         },
       ],
     },
