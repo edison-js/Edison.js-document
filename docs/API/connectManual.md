@@ -2,7 +2,7 @@
 You can use non-genuine Arduino. But you need to set the port manually.
 If you use WSL, you need to follow [this](/docs/Getting%20Started/How%20to%20WSL.md)
 
-```ts title="index.ts"
+```tsx title="index.tsx"
 
 import render, { Board, Button, Led } from "edison"
 import React from "react"

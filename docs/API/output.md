@@ -9,22 +9,15 @@ Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20S
 
 ## 2. Set output pin
 
-You can use `<Output pin={} isOn={}>` function component to set output pin.
+You can use `<Output >` function component to set output pin.
 
-| Arguments | Type   | Description      | Default |
+| Props | Type   | Description      | Default |
 |-----------|--------|------------------|---------|
-| `isOn`      | boolen  | `on` if `isOn` is true, `off` if false.     | `None`    |
 | `pin`      | number  | Pin number to control current     | `None` |
-
-
-
-| template literal       | Description  
-|--------|-------|
-| `on`   | output pin will be on|
-| `off`  | output pin will be off |
+| `isOn`      | boolen  | `on` if `isOn` is true, `off` if false.     | `None`    |
 
 :::tip
 
-`attachOutput` is a function that sets the output pin. So, you can control many device Led, Buzzer, etc.
+`<Output>` is a function that sets the output pin. So, you can control many device Led, Buzzer, etc.
 
 :::
