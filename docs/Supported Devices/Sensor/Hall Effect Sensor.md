@@ -11,7 +11,7 @@ Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20S
 ## 2. Run the Hall effect sensor
 
 ```tsx title="index.tsx"
-import render, { Board, Led, HallEffectSensor} from "edison"
+import { Board, Led, HallEffectSensor, render} from "edison"
 import React, {useState} from "react"
 
 const App: React.FC = () => {

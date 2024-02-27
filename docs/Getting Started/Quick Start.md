@@ -24,7 +24,7 @@ if you use WSL, you need to follow [this instruction](/docs/Getting%20Started/Ho
 ## 3. Try LED flashing
 
 ```ts title="index.tsx"
-import render, { Board, Button, Led } from "edison"
+import { Board, Button, Led, render } from "edison"
 import React from "react"
 
 const App: React.FC = () => {

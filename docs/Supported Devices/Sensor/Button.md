@@ -11,7 +11,7 @@ Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20S
 ## 2. Run the Button
 
 ```tsx title="index.tsx"
-import render, { Board, Led, Button} from "edison"
+import { Board, Led, Button, render} from "edison"
 import React, {useState} from "react"
 
 const App: React.FC = () => {

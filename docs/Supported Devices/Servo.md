@@ -14,7 +14,7 @@ Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20S
 
 ```tsx title="index.tsx"
 import React, { useState } from 'react'
-import render, { Board, Button, Servo } from 'edison'
+import { Board, Button, Servo, render } from 'edison'
 
 const App: React.FC = () => {
   const [angle, setAngle] = useState(0)

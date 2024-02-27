@@ -4,7 +4,7 @@ If you use WSL, you need to follow [this](/docs/Getting%20Started/How%20to%20WSL
 
 ```ts title="index.tsx"
 
-import render, { Board, Button, Led } from "edison"
+import { Board, Button, Led, render } from "edison"
 import React from "react"
 
 const App: React.FC = () => {

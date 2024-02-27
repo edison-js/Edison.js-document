@@ -12,7 +12,7 @@ Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20S
 ## 2. Run the LED
 
 ```tsx title="index.tsx"
-import render, { Board, Button, Led } from "edison"
+import { Board, Button, Led, render } from "edison"
 import React from "react"
 
 const App: React.FC = () => {
