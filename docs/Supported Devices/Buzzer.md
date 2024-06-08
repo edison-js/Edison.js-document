@@ -14,7 +14,7 @@ Click Upload button. if you use WSL, you need to follow [this](/docs/Getting%20S
 ## 2. Run the Buzzer
 
 ```tsx title="index.tsx"
-import { Board, Button, Buzzer. render } from "edison"
+import { Board, Buzzer. render } from "edison"
 import React from "react"
 
 const App: React.FC = () => {
